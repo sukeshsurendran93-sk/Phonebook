@@ -1,6 +1,8 @@
 # Phonebook – Fetch API / Async JS  
 A dark-themed, responsive contact manager that loads data from `contacts.json`, lets you add, edit, delete and search without external libraries.
 
+##LINK - https://sukeshsurendran93-sk.github.io/Phonebook/
+
 ## Features
 - View all contacts (grid)
 - Add new contact (phone must be 10 digits, duplicate check)
@@ -10,7 +12,7 @@ A dark-themed, responsive contact manager that loads data from `contacts.json`, 
 - Form validation + user alerts
 
 ## Tech
-- Vanilla HTML / CSS / JavaScript (ES6)
+- HTML / CSS / JavaScript
 - Fetch API + async / await
 - Local JSON file as data source
 
