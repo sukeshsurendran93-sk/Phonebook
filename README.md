@@ -16,10 +16,6 @@ A dark-themed, responsive contact manager that loads data from `contacts.json`, 
 - Fetch API + async / await
 - Local JSON file as data source
 
-## Run
-1. Clone repo  
-2. Open `index.html` in any modern browser (no server needed)
-
 ## File map
 - `index.html`          – markup & accessibility
 - `css/style.css`       – responsive dark UI
