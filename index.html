@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phonebook</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Phonebook</h1>
+        <input type="text" id="searchInput" class="search" placeholder="Search contacts...">
+    </header>
+
+    <div class="container">
+        <div class="top-bar">
+            <h3>Contacts (<span id="contactCount">0</span>)</h3>
+            <button id="addBtn" class="add-btn" onclick="openAddModal()">+ Add Contact</button>
+        </div>
+
+        <div id="contactsGrid" class="contacts">
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div id="modal" class="modal">
+        <div class="modal-box">
+            <div class="modal-header">
+                <h3 id="modalTitle">Title</h3>
+                <button class="close-btn">&times;</button>
+            </div>
+            <form id="contactForm" novalidate>
+                <input type="hidden" id="editId">
+
+                <label for="name">Name</label>
+                <input type="text" id="name" required placeholder="Full name">
+
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" required placeholder="Phone number">
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Email address">
+
+                <div class="modal-footer">
+                    <!-- <button type="button" class="cancel-btn" id="cancelBtn">Cancel</button> -->
+                    <button type="submit" class="save-btn" id="saveBtn">Button</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
